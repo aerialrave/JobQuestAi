@@ -1,7 +1,7 @@
 {
   "name": "development",
   "version": "1.0.0",
-  "description": "mesto project, sprint - 6",
+  "description": "JobQuest AI",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
