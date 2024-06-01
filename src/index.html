@@ -91,7 +91,7 @@
         <button type="button" class="popup__close"></button>
         <h3 class="popup__title">Tell us about your self</h3>
         <form class="popup__form" name="edit-profile" novalidate>
-          <label class="form__field">
+          <label for="name" class="form__field">
             <input type="text" name="name" id="popup__input_type_name" class="popup__input popup__input_type_name" placeholder="Name" 
               minlength="2" maxlength="40" pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin and Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_name-error"></span>
@@ -122,8 +122,8 @@
 
           <label class="form__field mr-2">
             <span class="education">Highest level of education</span>
-            <div class="dropdown">
-              <select name="education" class="form-control">
+            <div class="dropdown ">
+              <select name="education" class="form-control bg-dark dropdown">
                 <option value="High School">High School</option>
                 <option value="Bachelors">Bachelors</option>
                 <option value="Masters">Masters</option>
