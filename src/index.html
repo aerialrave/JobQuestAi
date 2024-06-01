@@ -113,12 +113,24 @@
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
-
-          <label class="form__field">
-            <input type="text" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="City" 
-              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
-            <span class="popup__input-error popup__input_type_description-error "></span>
+          
+          <label class="form__field mr-2">
+            <span class="education">Highest level of education</span>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Select
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">High School</a></li>
+                <li><a class="dropdown-item" href="#">Bachelors</a></li>
+                <li><a class="dropdown-item" href="#">Masters</a></li>
+                <li><a class="dropdown-item" href="#">Ph.D</a></li>
+                <li><a class="dropdown-item" href="#">None</a></li>
+              </ul>
+            </div>
           </label>
+          
           <button type="submit" class="button popup__button">Get my plan</button>
         </form>
       </div>
