@@ -96,25 +96,25 @@
               minlength="2" maxlength="40" pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin and Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_name-error"></span>
           </label>
-          <label for="description" class="form__field">
-            <input type="text" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="What are you good at?" 
+          <label class="form__field">
+            <input type="text" name="skills" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="What are you good at?" 
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
 
-          <label for="phone" class="form__field">
+          <label class="form__field">
             <input type="phone" name="phone" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="Phone number" 
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
 
-          <label for="email"" class="form__field">
+          <label class="form__field">
             <input type="email" name="email" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="e-mail" 
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
           
-          <label for="city" class="form__field">
+          <label class="form__field">
             <input type="text" name="city" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="city" 
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
@@ -122,8 +122,8 @@
 
           <label class="form__field mr-2">
             <span class="education">Highest level of education</span>
-            <div class="dropdown">
-              <select name="education" class="form-control">
+            <div class="dropdown ">
+              <select name="education" class="form-control bg-dark dropdown">
                 <option value="High School">High School</option>
                 <option value="Bachelors">Bachelors</option>
                 <option value="Masters">Masters</option>

@@ -52,3 +52,7 @@ body{
     margin-top: 6px;
     margin-right: 2rem;
 }
+
+.dropdown{
+    color: white !important;
+}
