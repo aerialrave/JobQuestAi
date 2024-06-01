@@ -1,0 +1,5 @@
+.links:hover{
+    opacity: 0.5 !important;
+    color: white !important;
+    transition-duration: 0.5s !important;
+}
