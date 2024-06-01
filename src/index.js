@@ -76,7 +76,7 @@ async function JubSubmitButton(evt) {
     const formData = new FormData(form);
     const data = {
         name: formData.get('name'),
-        description: formData.get('description'),
+        description: formData.get('skills'),
         phone: formData.get('phone'),
         email: formData.get('email'),
         city: formData.get('city'),
