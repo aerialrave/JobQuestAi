@@ -39,10 +39,6 @@
           </div>
         </div>
       </nav>
-      
-  
-
-
 </div>
     <h1 class="heading mt-5 mb-3">Welcome to JobQuestAI</h1>
     <div class="container mb-3 mt-5">
@@ -117,18 +113,26 @@
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
-
+          
           <label class="form__field">
-            <input type="text" name="city" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="City" 
+            <input type="text" name="city" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="city" 
               minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
             <span class="popup__input-error popup__input_type_description-error "></span>
           </label>
 
-          <label class="form__field">
-            <input type="text" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="highest level of education" 
-              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
-            <span class="popup__input-error popup__input_type_description-error "></span>
+          <label class="form__field mr-2">
+            <span class="education">Highest level of education</span>
+            <div class="dropdown">
+              <select name="education" class="form-control">
+                <option value="High School">High School</option>
+                <option value="Bachelors">Bachelors</option>
+                <option value="Masters">Masters</option>
+                <option value="Ph.D">Ph.D</option>
+                <option value="None">None</option>
+              </select>
+            </div>
           </label>
+          
           <button type="submit" class="button popup__button">Get my plan</button>
         </form>
       </div>
