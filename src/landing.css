@@ -3,7 +3,7 @@
     
 }
 body{
-    background-color:aliceblue;
+    background-color: #dee2e6;
 }
 .links:hover{
     opacity: 1 !important;
@@ -35,6 +35,8 @@ body{
     text-align: center;
     border-radius: 1rem !important;
     margin: 5rem 10rem 0rem 10rem !important;
+    background-color: #6c757d;
+    color: white;
 }
 
 .divs:hover{
@@ -44,8 +46,9 @@ body{
 }
 
 .btn:hover{
-    background-color: darkblue !important;
+    background-color: #495057 !important;
     transition-duration: 1s !important;
+    color: black;
 }
 
 .education{
