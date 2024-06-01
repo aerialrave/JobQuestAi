@@ -1,9 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "development",
   "version": "1.0.0",
   "description": "mesto project, sprint - 6",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "dev": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --mode production",
@@ -14,7 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.36.1",
-    "jquery": "^3.7.1"
+    "dotenv": "^16.4.5",
+    "jquery": "^3.7.1",
+    "openai": "^4.47.3"
   },
   "devDependencies": {
     "@babel/core": "^7.24.4",
@@ -41,19 +43,4 @@
     "url": "https://github.com/Gerts-official/mesto-project-ff/issues"
   },
   "homepage": "https://github.com/Gerts-official/mesto-project-ff#readme"
-=======
-  "name": "jobquestai",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodejs": "^0.0.0"
-  }
->>>>>>> 5b3a0237619721a2ae6fa7cf9fea8375e13d7e3e
 }
