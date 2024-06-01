@@ -1,0 +1,49 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+body{
+    background-color:aliceblue;
+}
+.links:hover{
+    opacity: 1 !important;
+    color: white !important;
+    transition-duration: 0.5s !important;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 400;
+}
+
+.desc{
+    text-align: center;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.desc:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.main-div{
+    display: flex;
+}
+
+.divs{
+    text-align: center;
+    border-radius: 1rem !important;
+    margin: 5rem 10rem 0rem 10rem !important;
+}
+
+.divs:hover{
+    border: 1.5px solid black;
+    box-shadow: 1px 1px grey;
+    transition-duration: 1s;
+}
+
+.btn:hover{
+    background-color: darkblue !important;
+    transition-duration: 1s !important;
+}
