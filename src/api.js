@@ -34,3 +34,8 @@ const makeRequest = async (uri, method = "GET", data = null) => {
     }
 };
 
+//  ==================================================================================== API METHODS
+
+
+// Send data  to the server 
+export const sentDataToOpenAI = (data) => makeRequest('users/me/avatar', 'PATCH', { avatar });

@@ -72,6 +72,10 @@ function openJobPopup() {
 // Handler function to SUBMIT edit profile form
 async function JubSubmitButton(evt) {
     evt.preventDefault();
+    const data = {};
+
+
+
 
     const submitButton = evt.submitter;
     const originalButtonText = submitButton.textContent;
