@@ -12,6 +12,8 @@ const testGuy = {
     degreeLv: 'High School'
 }
 
+
+
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY, project: process.env.OPENAI_PROJECT });
 
 async function main() {
