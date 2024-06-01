@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "development",
   "version": "1.0.0",
   "description": "mesto project, sprint - 6",
@@ -40,4 +41,19 @@
     "url": "https://github.com/Gerts-official/mesto-project-ff/issues"
   },
   "homepage": "https://github.com/Gerts-official/mesto-project-ff#readme"
+=======
+  "name": "jobquestai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodejs": "^0.0.0"
+  }
+>>>>>>> 5b3a0237619721a2ae6fa7cf9fea8375e13d7e3e
 }
