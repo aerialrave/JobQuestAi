@@ -91,7 +91,7 @@
               <h5 class="card-title">Jobs</h5>
               <h6 class="mb-2 card-subtitle mb-2 text-muted">Get help with job finding</h6>
               <p class=" card-text">Empowering your career journey with personalized job search assistance</p>
-              <a href="#" class="btn mt-2 btn-primary">Get Started</a>
+              <a href="#" class="btn mt-2 btn-primary job-button">Get Started</a>
             </div>
           </div>
           <div class="card divs" style="width: 20rem;">
@@ -121,6 +121,44 @@
               <a href="#" class="btn mt-2 btn-primary">Get Started</a>
             </div>
           </div>
+    </div>
+
+    <div class="popup popup_type_job popup_is-animated" >
+      <div class="popup__content">
+        <button type="button" class="popup__close"></button>
+        <h3 class="popup__title">Tell us about your self</h3>
+        <form class="popup__form" name="edit-profile" novalidate>
+          <label class="form__field">
+            <input type="text" name="name" id="popup__input_type_name" class="popup__input popup__input_type_name" placeholder="Name" 
+              minlength="2" maxlength="40" pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin and Cyrillic letters, hyphens, and spaces are allowed" required>
+            <span class="popup__input-error popup__input_type_name-error"></span>
+          </label>
+          <label class="form__field">
+            <input type="text" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="What are you good at?" 
+              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
+            <span class="popup__input-error popup__input_type_description-error "></span>
+          </label>
+
+          <label class="form__field">
+            <input type="phone" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="Phone number" 
+              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
+            <span class="popup__input-error popup__input_type_description-error "></span>
+          </label>
+
+          <label class="form__field">
+            <input type="email" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="e-mail" 
+              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
+            <span class="popup__input-error popup__input_type_description-error "></span>
+          </label>
+
+          <label class="form__field">
+            <input type="text" name="description" id="popup__input_type_description" class="popup__input popup__input_type_description" placeholder="City" 
+              minlength="2" maxlength="200"  pattern="[a-zA-Zа-яА-ЯёЁ\s\-]+" data-error-message="Only Latin, Cyrillic letters, hyphens, and spaces are allowed" required>
+            <span class="popup__input-error popup__input_type_description-error "></span>
+          </label>
+          <button type="submit" class="button popup__button">Get my plan</button>
+        </form>
+      </div>
     </div>
 
     <script
