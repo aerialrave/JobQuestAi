@@ -1,5 +1,13 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
 .links:hover{
-    opacity: 0.5 !important;
+    opacity: 1 !important;
     color: white !important;
     transition-duration: 0.5s !important;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 400;
 }
